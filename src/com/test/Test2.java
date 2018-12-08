@@ -5,7 +5,7 @@ public class Test2 {
 	public static void main(String[] args) {
 		
 		IFly a3 = () -> {
-			System.out.println("--------fly");
+			System.out.println("-------fly");
 		};
 		
 		IFly a1 = () -> new Aa();
