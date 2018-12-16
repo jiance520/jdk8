@@ -11,7 +11,7 @@ public class Test2 {
 		IFly a1 = () -> new Aa();
 		a1.fly();
 		
-		IFly a2 = Aa::new;//构造器引用
+		IFly a2 = Aa::new;//构造器引用。
 		a2.fly();
 		
 		
