@@ -11,12 +11,12 @@ public class Test3 {
         	list.add(rd);
         }
         
-        // lambdaĞ´·¨
+        // lambdaå†™æ³•
      	/*list.forEach(e -> {
      		System.out.println(" num = "+e);
      	});*/
      	
-        //¾²Ì¬·½·¨ÒıÓÃ :×Ô¶¯ ´« 
+        //é™æ€æ–¹æ³•å¼•ç”¨ :è‡ªåŠ¨ ä¼  
         list.forEach(Person::showNum);
 	}
 

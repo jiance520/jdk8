@@ -11,7 +11,7 @@ public class Demo3 {
 		for(int i = 0;i<5;i++){
 			list.add(i);
 		}
-        // lambda 实现  Comparator 接口
+        // lambda 瀹炵幇  Comparator 鎺ュ彛
 		
 		Comparator<Integer> c1 = new Comparator<Integer>() {
 			

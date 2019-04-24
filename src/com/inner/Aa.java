@@ -6,7 +6,7 @@ public class Aa {
 	
 	private int num ;
 	
-	//³ÉÔ±ÄÚ²¿Àà
+	//æˆå‘˜å†…éƒ¨ç±»
 	public class Ba{
 		
 		public void showBa(){
@@ -27,7 +27,7 @@ public class Aa {
     	return new Ca();
     }
     
-    // ¾²Ì¬Ç¶Ì×Àà
+    // é™æ€åµŒå¥—ç±»
     static class Da{
 		
 		public static void showBa(){

@@ -3,7 +3,7 @@ package com.supplier;
 import java.util.function.*;
 
 /*
- * ĞÂµÄº¯ÊıÊ½½Ó¿Ú--Supplier£¬ËüµÄÖĞÎÄÒâË¼Îª¹©Ó¦ÉÌ¡¢Ìá¹©Õß
+ * æ–°çš„å‡½æ•°å¼æ¥å£--Supplierï¼Œå®ƒçš„ä¸­æ–‡æ„æ€ä¸ºä¾›åº”å•†ã€æä¾›è€…
  */
 public class Test1 {
 
@@ -15,7 +15,7 @@ public class Test1 {
 		
 		//Supplier<Person> p1 = () -> new Person() ;
 		//p1.get().say();
-		//¹¹ÔìÆ÷ÒıÓÃ Õâ¸ö¹¹ÔìÆ÷Ã»ÓĞ²ÎÊı
+		//æ„é€ å™¨å¼•ç”¨ è¿™ä¸ªæ„é€ å™¨æ²¡æœ‰å‚æ•°
 		Supplier<Person> p2 = Person::new ;
 		p2.get().say();
 	}

@@ -3,7 +3,7 @@ package com.inner;
 public class Demo {
 
 	public void test(){
-		// ·½·¨ÄÚ²¿Àà
+		// æ–¹æ³•å†…éƒ¨ç±»
 		class Ts{
 			
 			void t1(){

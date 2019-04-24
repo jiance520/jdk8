@@ -6,16 +6,16 @@ package com.lambda;
 public class Demo2 {
 
 	public static void main(String[] args) {
-		// ÀàĞÍÉùÃ÷
-		IMathOperation m1 = (int a,int b) ->  a + b ; // Ò»´ÎĞÔ new ¶ÔÏó ÖØĞ´·½·¨
+		// ç±»å‹å£°æ˜
+		IMathOperation m1 = (int a,int b) ->  a + b ; // ä¸€æ¬¡æ€§ new å¯¹è±¡ é‡å†™æ–¹æ³•
 		
 		int num1 = m1.operation(12, 5);
 		
-		// ²»ÓÃÀàĞÍÉùÃ÷
+		// ä¸ç”¨ç±»å‹å£°æ˜
 		IMathOperation m2 = (a,b) ->  a + b ;
-		/* Èç¹ûLambda±í´ïÊ½ÖĞµÄÓï¾ä¿éÖ»ÓĞÒ»ĞĞ£¬
-		 * Ôò¿ÉÒÔ²»ÓÃÊ¹ÓÃreturnÓï¾ä
-		 * ·ñÔòÓĞ·µ»ØÖµÒªreturn
+		/* å¦‚æœLambdaè¡¨è¾¾å¼ä¸­çš„è¯­å¥å—åªæœ‰ä¸€è¡Œï¼Œ
+		 * åˆ™å¯ä»¥ä¸ç”¨ä½¿ç”¨returnè¯­å¥
+		 * å¦åˆ™æœ‰è¿”å›å€¼è¦return
 		 */
 		IMathOperation m3 = (a,b) -> {
 			 int num = a + b ;

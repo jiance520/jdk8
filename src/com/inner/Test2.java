@@ -3,7 +3,7 @@ package com.inner;
 public class Test2 {
 
 	public static void main(String[] args) {
-		// ÄäÃûÄÚ²¿Àà 
+		// åŒ¿åå†…éƒ¨ç±» 
 		Ifly f1  = new Ifly() {
 			
 			@Override

@@ -6,10 +6,10 @@ public class Demo4 {
 	
 	public static void main(String[] args) {
 		/*
-		 * ÔÚ Lambda ±í´ïÊ½µ±ÖÐ²»ÔÊÐíÉùÃ÷Ò»¸öÓë¾Ö²¿±äÁ¿Í¬ÃûµÄ²ÎÊý»òÕß¾Ö²¿±äÁ¿¡£
-		 * ambda ±í´ïÊ½¿ÉÒÔÒýÓÃÍâ²ã¾Ö²¿±äÁ¿£¬
-		 * µ«ÊÇ²»ÄÜÔÚ lambda ÄÚ²¿ÐÞ¸Ä¶¨ÒåÔÚÓòÍâµÄ¾Ö²¿±äÁ¿£¬·ñÔò»á±àÒë´íÎó¡£
-		 * ×îºÃ°ÑÒýÓÃµÄÍâ²ã¾Ö²¿±äÁ¿±ê¼ÇÎª final 
+		 * åœ¨ Lambda è¡¨è¾¾å¼å½“ä¸­ä¸å…è®¸å£°æ˜Žä¸€ä¸ªä¸Žå±€éƒ¨å˜é‡åŒåçš„å‚æ•°æˆ–è€…å±€éƒ¨å˜é‡ã€‚
+		 * ambda è¡¨è¾¾å¼å¯ä»¥å¼•ç”¨å¤–å±‚å±€éƒ¨å˜é‡ï¼Œ
+		 * ä½†æ˜¯ä¸èƒ½åœ¨ lambda å†…éƒ¨ä¿®æ”¹å®šä¹‰åœ¨åŸŸå¤–çš„å±€éƒ¨å˜é‡ï¼Œå¦åˆ™ä¼šç¼–è¯‘é”™è¯¯ã€‚
+		 * æœ€å¥½æŠŠå¼•ç”¨çš„å¤–å±‚å±€éƒ¨å˜é‡æ ‡è®°ä¸º final 
 		 */
 		int num = 10 ;
 		final int num3 = 40 ;

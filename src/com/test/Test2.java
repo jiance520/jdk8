@@ -11,7 +11,7 @@ public class Test2 {
 		IFly a1 = () -> new Aa();
 		a1.fly();
 		
-		IFly a2 = Aa::new;//¹¹ÔìÆ÷ÒıÓÃ¡£
+		IFly a2 = Aa::new;//æ„é€ å™¨å¼•ç”¨ã€‚
 		a2.fly();
 		
 		

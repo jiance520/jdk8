@@ -14,7 +14,7 @@ public class Test4 {
         
         Supplier<Person> p2 = Person::new ;
         Person p3 = p2.get();
-        //方法引用
+        //鏂规硶寮曠敤
         list.forEach(p3::add);
 	}
 
